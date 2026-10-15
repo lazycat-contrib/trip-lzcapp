@@ -24,35 +24,7 @@ images:
     source: ghcr.io/itskovacs/trip
     channel: custom
     sort: semver
-    tag_regex: '^\d+(\.\d+){1,2}
-    delivery:
-      mode: mirror
-      require_digest_match: true
-
-stores:
-  official:
-    enabled: false
-  private:
-    enabled: true
-    skip_if_version_exists: true
-    name: Trip
-    summary: "极简 POI 地图追踪与行程规划"
-
-    version_regex: '^(?P<major>\d+)\.(?P<minor>\d+)(?:\.(?P<patch>\d+))?
-    delivery:
-      mode: mirror
-      require_digest_match: true
-
-stores:
-  official:
-    enabled: false
-  private:
-    enabled: true
-    skip_if_version_exists: true
-    name: Trip
-    summary: "极简 POI 地图追踪与行程规划"
-
-    version_template: '{major}.{minor}.{patch}'
+    tag_regex: '^\d+\.\d+\.\d+$'
     delivery:
       mode: mirror
       require_digest_match: true
