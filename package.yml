@@ -1,0 +1,15 @@
+package: community.lazycat.app.trip
+version: 1.50.1
+name: Trip
+description: "Minimalist POI map tracker and trip planner"
+min_os_version: 1.5.0
+author: itskovacs
+license: MIT
+homepage: https://github.com/itskovacs/trip
+locales:
+  zh:
+    name: "Trip"
+    description: "极简 POI 地图追踪与行程规划：标注地点、规划路线、记录行程，自托管"
+  en:
+    name: "Trip"
+    description: "Minimalist POI map tracker and trip planner. Self-hosted"
